@@ -26,6 +26,7 @@ body {
   align-items: baseline;
   padding-top: 8px;
   width: 300px;
+
 }
 
 .logo{
@@ -59,7 +60,7 @@ padding-top: 100px;
 
 .second-column {
   display: flex;
-  color: blue;
+  color: black;
   width: 300px;
   flex-direction: column;
   padding: 30px 15px 15px 20px;
@@ -70,7 +71,9 @@ padding-top: 100px;
   color: green;
   width: 200px;
   flex-direction: column;
-  padding: 30px 30px 5px 10px;
+  padding: 30px 0px 5px 40px;
+  align-items: center;
+
 }
 
 .headline1{
@@ -99,6 +102,11 @@ padding-top: 100px;
 
 .sub-photo3 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  width: 325px;
+  height: 300px;
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
 .photo {
@@ -136,6 +144,7 @@ padding-top: 100px;
 
 }
 
+
 .sub-photo2 h4 {
   text-align: center;
   font-size: 20px;
@@ -148,6 +157,42 @@ padding-top: 100px;
   padding: 5px 20px 0px 20px;
 }
 
+.sub-photo3 h4 {
+  text-align: center;
+  font-size: 20px;
+  padding: 5px 20px 0px 20px;
+}
+
 .bot-right-column1 p {
   padding-bottom: 50px;
+}
+
+h5 {
+
+  font-size: 16px;
+  font-weight: bold;
+  align-self: center;
+  padding-left: 55px;
+  text-align: center;
+}
+
+.news-list {
+  display: flex;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  flex-direction: column;
+  list-style-type: none;
+  border: 3px;
+  text-align: center;
+}
+
+.news-list li {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  padding: 5px;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
 }
